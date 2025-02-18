@@ -24,9 +24,9 @@
 def new_user():
     name = input('Please enter your name: ')
     user_id = input('Please enter your user id: ')
-    password = input('Please enter your password: ')
+    password = input('Please enter your password: \n')
     print('Welcome,', str(name)+'. Your ID is', str(user_id)+'.')
-    print('\nPASSWORD:')
+    print('\nPASSWORD: ')
     print('X'*len(password))
 new_user()
 
