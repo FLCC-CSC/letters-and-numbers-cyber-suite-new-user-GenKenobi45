@@ -1,8 +1,8 @@
 # FILE NAME: cyber_suite_new_user.py
 
-# NAME: 
-# DATE: 
-# BRIEF DESCRIPTION:  
+# NAME: Yusuf Khan
+# DATE: 02/14/25
+# BRIEF DESCRIPTION: program outputting every character of the users password as 'X' to keep it hidden. 
 
 
 
@@ -21,15 +21,14 @@
 
 
 ########## ENTER YER CODE BELOW THIS LINE ##########
-
-
-
-
-
-
-
-
-
+def new_user():
+    name = input('Please enter your name: ')
+    user_id = input('Please enter your user id: ')
+    password = input('Please enter your password: ')
+    print('Welcome,', str(name)+'. Your ID is', str(user_id)+'.')
+    print('\nPASSWORD:')
+    print('X'*len(password))
+new_user()
 
 ########### END YER CODE ABOVE THIS LINE ###########
     
@@ -80,7 +79,9 @@ XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 '''
 1. This project has a bit of a speed bump (converting the password to XXXXs). What was your thought process?
 
-
+My initials thought process was trying to figure out how to output a certain amount of Xs depending on 
+the number of characters in the password, like if there was a way for the prgram to count the number and 
+remember it for the output.
 
 
 
