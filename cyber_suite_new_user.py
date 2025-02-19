@@ -1,5 +1,5 @@
 # FILE NAME: cyber_suite_new_user.py
-
+# DRG - Rerun for points 2025-02-18-2348
 # NAME: Yusuf Khan
 # DATE: 02/14/25
 # BRIEF DESCRIPTION: program outputting every character of the users password as 'X' to keep it hidden. 
